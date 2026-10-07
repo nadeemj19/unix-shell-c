@@ -1,0 +1,17 @@
+# Compiled shell binaries (macOS/Linux/MSYS2/Windows)
+shell
+shell.exe
+*.o
+*.out
+*.exe
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# MSYS2 / Cygwin crash dumps
+*.stackdump
+
+# Files the shell itself creates in $HOME (in case they end up in the folder)
+.hist_list
+.aliases
